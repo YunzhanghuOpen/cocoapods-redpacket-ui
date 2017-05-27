@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-  s.name             = 'RedPacketAliAuthUILib'
+  s.name             = 'RedPacketAliAuthUI'
   s.version          = '2.0.0'
-  s.summary          = 'RedPacketAliAuthUILib'
+  s.summary          = 'RedPacketAliAuthUI'
   s.description      = <<-DESC
-                       * RedPacketAliAuthUILib.
+                       * RedPacketAliAuthUI.
                        * Redpacket
                        * Alipay
                        * 支付宝支付
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'http://yunzhanghu.com'
-  #s.license         = { :type => 'MIT' }
+  s.license         = { :type => 'MIT' , :file => "LICENSE" }
   s.author           = { 'Mr.Yang' => 'tonggang.yang@yunzhanghu.com' }
   s.source           = { :git => 'https://github.com/YunzhanghuOpen/cocoapods-redpacket-ui.git', :tag => "#{s.version}" }
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.xcconfig     = {'OTHER_LDFLAGS' => '-ObjC'}
-  s.source_files = 'RedPacketAliAuthUILib/**/*.{h,m}'
+  s.source_files = 'RedPacketAliAuthUI/**/*.{h,m}'
   s.resources = ['resources/*.bundle']
   s.frameworks = 'AudioToolbox'
   s.documentation_url = 'https://docs.yunzhanghu.com/integration/ios.html'
