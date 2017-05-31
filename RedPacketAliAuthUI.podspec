@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
   #红包SDKAPI层依赖
   s.dependency 'RedpacketAliAuthAPILib'
   #支付宝SDK依赖
-  s.dependency 'RedPacketAlipay'
+  s.dependency 'RPAlipayLib'
 
 end

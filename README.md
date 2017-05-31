@@ -14,11 +14,16 @@ https://docs.yunzhanghu.com/integration/ios.html
 如果工程中已经存在支付宝SDK，需要从`RedPacketAliAuthUI.podspec`删除对支付宝的依赖
 
 ```
-  #红包SDKAPI层依赖
+
   s.dependency 'RedpacketAliAuthAPILib'
   #支付宝SDK依赖
-  s.dependency 'RedPacketAlipay'
+  s.dependency 'RPAlipayLib'
 ```
 
 
+#redpacket-ui依赖
+如需在工程中直接使用redpacket-ui源码，则需要在工程中引入依赖的pod
+
+* 红包SDKAPI层依赖 `pod 'RedpacketAliAuthAPILib'`
+* 支付宝SDK依赖 `pod 'RPAlipayLib'`
 
