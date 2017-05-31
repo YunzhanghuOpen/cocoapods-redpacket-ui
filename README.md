@@ -3,7 +3,7 @@
 
 
 # 接入指南
-https://docs.yunzhanghu.com/integration/ios.html
+https://docs.yunzhanghu.com/integration/ios_api.html
 
 # Redpacket-API-Lib 使用指南
 
