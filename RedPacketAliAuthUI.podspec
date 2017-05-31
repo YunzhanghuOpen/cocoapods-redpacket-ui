@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   s.resources = ['resources/*.bundle']
   s.frameworks = 'AudioToolbox'
   s.documentation_url = 'https://docs.yunzhanghu.com/integration/ios.html'
+  #红包SDKAPI层依赖
   s.dependency 'RedpacketAliAuthAPILib'
+  #支付宝SDK依赖
   s.dependency 'RedPacketAlipay'
 
 end
