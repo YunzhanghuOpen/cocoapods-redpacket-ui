@@ -25,5 +25,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'AudioToolbox'
   s.documentation_url = 'https://docs.yunzhanghu.com/integration/ios.html'
   s.dependency 'RedpacketAliAuthAPILib'
+  s.dependency 'RedPacketAlipay'
 
 end
