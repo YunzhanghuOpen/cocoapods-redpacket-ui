@@ -10,7 +10,7 @@ https://docs.yunzhanghu.com/integration/ios.html
 3. pod本地依赖`pod 'RedPacketAliAuthUI', :path=>'pod地址'`
 
 
-#修改依赖关系
+# 修改依赖关系
 如果工程中已经存在支付宝SDK，需要从`RedPacketAliAuthUI.podspec`删除对支付宝的依赖
 
 ```
@@ -21,7 +21,7 @@ https://docs.yunzhanghu.com/integration/ios.html
 ```
 
 
-#redpacket-ui依赖
+# redpacket-ui依赖
 如需在工程中直接使用redpacket-ui源码，则需要在工程中引入依赖的pod
 
 * 红包SDKAPI层依赖 `pod 'RedpacketAliAuthAPILib'`
