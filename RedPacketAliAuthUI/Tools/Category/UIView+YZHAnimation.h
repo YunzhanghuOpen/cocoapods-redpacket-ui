@@ -28,13 +28,11 @@ typedef NS_ENUM(NSInteger, PopAnchor) {
 
 /**
  *  缩小
-    @param 代理
  */
 - (void)rp_shrinkDispaerWithCompletionBlock:(void (^) (void))animationStop1;
 
 /**
  *  果冻效果弹出
- @param 代理
  */
 - (void)rp_popOutWithDelegate:(id)delegate;
 
@@ -60,8 +58,6 @@ typedef NS_ENUM(NSInteger, PopAnchor) {
 
 /**
  *  雷达波图
- *
- *  @param count  数量
  */
 - (void)rp_radar:(NSInteger)count;
 

@@ -332,8 +332,6 @@
     
 }
 
-#pragma mark -
-
 //  红包收发记录页面
 + (void)presentChangePocketViewControllerFromeController:(UIViewController *)viewController
 {
